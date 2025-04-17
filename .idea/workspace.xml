@@ -4,22 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="411d4ae5-a84b-4303-9482-3953e98efd07" name="Changes" comment="620">
-      <change afterPath="$PROJECT_DIR$/examplePythonImport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nex/nex5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nex/read_local.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readTrodesExtractedDataFile2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readTrodesExtractedDataFile3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trail.py" afterDir="false" />
+    <list default="true" id="411d4ae5-a84b-4303-9482-3953e98efd07" name="Changes" comment="read nex5 header">
+      <change afterPath="$PROJECT_DIR$/OpenEphysRecording.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edf_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/npy_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/op.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open_ephys/open_ephys_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/read_files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/read_files.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat.py" beforeDir="false" afterPath="$PROJECT_DIR$/dat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edf.py" beforeDir="false" afterPath="$PROJECT_DIR$/edf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/NexFileData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/NexFileHeaders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/NexFileReaders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/NexFileWriters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/nex5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nex/read_local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsx.py" beforeDir="false" afterPath="$PROJECT_DIR$/nsx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pl2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/open-ephys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trail.py" beforeDir="false" afterPath="$PROJECT_DIR$/trail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,50 +60,45 @@
     "Python.dat.executor": "Run",
     "Python.edf.executor": "Run",
     "Python.examplePythonImport.executor": "Run",
+    "Python.fill_nex5.executor": "Run",
+    "Python.nev文件.executor": "Run",
     "Python.nex5.executor": "Run",
+    "Python.npy_reader.executor": "Run",
     "Python.nsx.executor": "Run",
+    "Python.op.executor": "Run",
     "Python.pl2.executor": "Run",
     "Python.read.executor": "Run",
     "Python.read_bach_A02.executor": "Run",
     "Python.read_local.executor": "Run",
     "Python.rec.executor": "Run",
+    "Python.setup.executor": "Run",
+    "Python.time (1).executor": "Run",
     "Python.time.executor": "Run",
     "Python.trail.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Lenovo/PycharmProjects/read_files",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "D:/Projects_Python/read_files",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects_Python\read_files" />
       <recent name="C:\Users\Lenovo\PycharmProjects\read_files" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\read_files" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\read_files\.venv" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.read_local">
-    <configuration name="nex5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="read_files" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nex/nex5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pl2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.rec">
+    <configuration name="op" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="read_files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +111,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pl2.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/op.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rec" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="read_files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +130,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nex/read.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_bach_A02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="read_files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,11 +153,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nex" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/open-ephys-python-tools-main/open-ephys-python-tools-main" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nex/read_bach_A02.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/open-ephys-python-tools-main/open-ephys-python-tools-main/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_local" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="time (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="read_files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,11 +176,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nex/read_local.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="read_files" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,18 +215,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read_local" />
-        <item itemvalue="Python.nex5" />
-        <item itemvalue="Python.read" />
-        <item itemvalue="Python.read_bach_A02" />
-        <item itemvalue="Python.pl2" />
+        <item itemvalue="Python.rec" />
+        <item itemvalue="Python.trail" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.time (1)" />
+        <item itemvalue="Python.op" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.19072.16" />
+        <option value="bundled-python-sdk-8336bb23522e-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.19072.16" />
       </set>
     </attachedChunks>
   </component>
@@ -207,6 +239,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718603891906</updated>
+      <workItem from="1725883934473" duration="1148000" />
+      <workItem from="1726644915029" duration="3796000" />
+      <workItem from="1726708524939" duration="6000" />
+      <workItem from="1744791719484" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="read—data">
       <option name="closed" value="true" />
@@ -224,12 +260,36 @@
       <option name="project" value="LOCAL" />
       <updated>1718871611560</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="read nex5 header">
+      <option name="closed" value="true" />
+      <created>1722934893628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722934893628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="read nex5 header">
+      <option name="closed" value="true" />
+      <created>1722934907270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722934907270</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read—data" />
     <MESSAGE value="620" />
-    <option name="LAST_COMMIT_MESSAGE" value="620" />
+    <MESSAGE value="read nex5 header" />
+    <option name="LAST_COMMIT_MESSAGE" value="read nex5 header" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/read_files$rec.coverage" NAME="rec Coverage Results" MODIFIED="1726646196243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/read_files$trail.coverage" NAME="trail Coverage Results" MODIFIED="1725884041847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
